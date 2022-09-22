@@ -1,4 +1,4 @@
-//Descubra o maior e o menor numero
+﻿//Descubra o maior e o menor numero
 import java.util.Scanner;
 public class MaiorEmenor {
     public static void main(String[] args) {
