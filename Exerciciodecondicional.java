@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-
+//se as letras m e f forem digitadas serão aceitas como gêneros válidos
 public class Exerciciodecondicional {
     public static void main(String[] args) {
         String masc= "M";
