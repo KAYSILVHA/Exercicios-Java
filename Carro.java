@@ -80,8 +80,6 @@ public class Carro {
                 desligarCarro(chaveDoCarro, true);
             } else {
                 System.out.println("Estou sem as chaves do carro");
-                acelerarCarro(chaveDoCarro, true);
-                desligarCarro(chaveDoCarro, true);
             }
             return chaveDoCarro;
         }
@@ -96,7 +94,7 @@ public class Carro {
         }
         public static Boolean desligarCarro(Boolean chaveDoCarro, Boolean desligar) {
             if(chaveDoCarro !=null && chaveDoCarro) {
-                System.out.println("Seu carro nao foi desligado. Seguindo rota, preste atencao na pista!...");
+                System.out.println("Seu carro ainda esta ligado");
             } else {
                 System.out.println("Seu carro foi desligado");
             }
